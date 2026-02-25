@@ -1,4 +1,5 @@
 
 
-1 -- Learn Monorepo and then create a github repo 
-2 -- Learn LLD
+1 -- Learn Monorepo
+2 -- NX & Turborepo (Implement later)
+n -- Learn LLD
