@@ -1,0 +1,87 @@
+/*******************************************************************/
+                     Workspace configuration files
+/*******************************************************************/
+
+1 -- .editorconfig
+EditorConfig ek configuration file hoti hai jo coding style ko standard banane ke liye use hoti hai.
+Matlab agar project me multiple developers kaam kar rahe ho aur sab alag-alag editors use kar rahe ho (VS Code, WebStorm, Vim, etc.), to code formatting same rahe.
+
+2 -- .gitignore
+.gitignore ek file hoti hai jo Git ko batati hai ki kaunsi files ya folders repository me track nahi karne.
+
+3 -- README.md
+README.md project ka introduction file hoti hai jisse koi bhi developer samajh sake ki project kya karta hai aur kaise run karna hai.
+
+4 -- angular.json
+angular.json Angular project ki main configuration file hai jo define karti hai:
+** project structure, build process, development server, assets, styles, environments.
+
+5 -- package.json
+package.json ek configuration file hoti hai jo Node.js project ke baare me information aur dependencies define karti hai. Ye file npm aur Node.js use karte hain.
+
+6 -- package-lock.json
+package-lock.json ek file hoti hai jo exact dependency versions lock karti hai taaki project har system par same packages install ho.
+Ye file automatically generate hoti hai jab tum npm se npm install run karte ho.
+
+7  -- src/
+src/ (source folder) Angular project ka main code folder hota hai jahan application ka actual source code hota hai.
+Ye folder Angular application ke saare components, styles, assets aur entry files contain karta hai.
+
+8 -- public/
+public/ folder me static files hoti hain jo direct browser ko serve hoti hain.
+➡️ Ye files build process me change nahi hoti, direct browser ko mil jati hain.
+
+9 -- node_modules/
+node_modules/ folder me project ki saari installed packages / libraries hoti hain jo Node.js aur npm se install hoti hain.
+
+10 -- tsconfig.json
+tsconfig.json ek configuration file hoti hai jo TypeScript compiler ko batati hai ki TypeScript code ko JavaScript me kaise compile karna hai.
+
+/*******************************************************************/
+                     Application source files
+/*******************************************************************/
+
+1 -- app/
+app/ folder Angular project ke main application code ka folder hota hai. Yahin par app ke components, services, modules aur logic likhe jaate hain.
+
+2 -- favicon.ico
+favicon.ico ek small icon image hoti hai jo browser tab me website ke title ke saath dikhai deti hai
+
+3 -- index.html
+index.html Angular application ki main HTML entry file hoti hai. Browser sabse pehle isi file ko load karta hai.
+Ye file Angular app ko browser me render karne ka starting point hoti hai.
+
+4 -- main.ts
+main.ts Angular application ka entry point hota hai. Yahin se Angular app start (bootstrap) hoti hai.
+Ye file Angular ko batati hai ki kaunsa root component load karna hai.
+
+5 -- styles.css
+styles.css Angular project ki global CSS file hoti hai jisme poori application ke common styles likhe jaate hain.
+Ye file Angular build process ke time automatically load ho jati hai aur saare components par apply ho sakti hai.
+
+-----------------------Inside the src/app folder------------------------------
+
+1 -- app.config.ts
+app.config.ts Angular application ki global configuration file hoti hai jisme app ke providers aur settings define kiye jaate hain.
+Ye mainly Angular ke standalone application setup me use hoti hai.
+
+2 -- app.component.ts
+Root component ka TypeScript logic file.
+
+3 -- app.component.html
+Component ka template / UI file.
+
+4 -- pp.component.css
+Component ka styles file.
+
+5 -- app.component.spec.ts
+Unit test file for component.
+
+6 -- app.module.ts
+Angular root module.
+Yahan components, modules, services register hote hain.
+Angular runtime is file se dependency injection aur module system samajhta hai.
+
+7 -- app.routes.ts
+Routing configuration file.
+Yahan app ke routes define hote hain, jaise kaunse URL par kaunsa component load hoga.

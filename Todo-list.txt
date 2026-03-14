@@ -1,13 +1,17 @@
+/*******************************************************************/
+                             completed task
+/*******************************************************************/
+
+##  Setup Pritterr and Eslint
+##  Understand Anular folder structure 
 
 
 /*******************************************************************/
                              Next task
 /*******************************************************************/
 
-##  Setup Pritterr and Eslint
-##  Understand Anular folder structure 
-##  Create Signup and Login UI
 
+##  Create Signup and Login UI
 
 
 /*******************************************************************/
