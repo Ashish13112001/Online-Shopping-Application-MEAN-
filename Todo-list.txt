@@ -1,5 +1,19 @@
 
 
-1 -- Learn Monorepo
-2 -- NX & Turborepo (Implement later)
-n -- Learn LLD
+/*******************************************************************/
+                             Next task
+/*******************************************************************/
+
+##  Setup Pritterr and Eslint
+##  Understand Anular folder structure 
+##  Create Signup and Login UI
+
+
+
+/*******************************************************************/
+                             Later task
+/*******************************************************************/
+
+##  Learn Monorepo
+##  NX & Turborepo (Implement later)
+##  Learn LLD
