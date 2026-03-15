@@ -1,0 +1,45 @@
+<form [formGroup]="signupForm" (ngSubmit)="onSubmit()" class="signup-form">
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Enter your name" formControlName="name">
+    <!-- <mat-error *ngIf="signupForm.get('name')?.hasError('required')">
+      Name is required
+    </mat-error> -->
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Enter your email" formControlName="email">
+    <!-- <mat-error *ngIf="signupForm.get('email')?.hasError('required')">
+      Email is required
+    </mat-error>
+    <mat-error *ngIf="signupForm.get('email')?.hasError('email')">
+      Invalid email
+    </mat-error> -->
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Password</mat-label>
+    <input matInput [type]="'password'" placeholder="Enter your password" formControlName="password">
+    <!-- <mat-error *ngIf="signupForm.get('password')?.hasError('required')">
+      Password is required
+    </mat-error>
+    <mat-error *ngIf="signupForm.get('password')?.hasError('minlength')">
+      Minimum 6 characters
+    </mat-error> -->
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Confirm Password</mat-label>
+    <input matInput [type]="'password'" placeholder="Confirm password" formControlName="confirmPassword">
+    <!-- <mat-error *ngIf="signupForm.get('confirmPassword')?.hasError('required')">
+      Confirmation is required
+    </mat-error> -->
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Sign Up</button>
+  <p class="login-link">
+    Already have an account?
+    <a [routerLink]="['/login']">Login</a>
+  </p>
+</form>

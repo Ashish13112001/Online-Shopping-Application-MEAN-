@@ -13,7 +13,12 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
     rules: {
       '@typescript-eslint/no-unused-vars': 'warn',
-      'prettier/prettier': 'warn',
+      'prettier/prettier': [
+        'error',
+        {
+          endOfLine: 'CLRF',
+        },
+      ],
     },
   },
 ]);

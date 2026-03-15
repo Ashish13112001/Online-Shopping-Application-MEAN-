@@ -12,6 +12,8 @@
 
 
 ##  Create Signup and Login UI
+## environment file
+## Read: https://medium.com/@piyalidas.it/angular-where-can-we-store-our-secret-keys-iv-etc-in-frontend-b6c11090b4c3
 
 
 /*******************************************************************/
